@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="742.04558">
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;." time="84.127709">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri1,Address Line Field 12544 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2233Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 2" time="81.412117">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri2,Address Line Field 12545 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2234Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 3" time="81.344457">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri3,Address Line Field 12546 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2235Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 4" time="82.872249">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri4,Address Line Field 12547 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2236Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 5" time="82.496003">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri5,Address Line Field 12548 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2237Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 6" time="82.13491">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri6,Address Line Field 12549 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2238Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 7" time="81.974305">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri7,Address Line Field 12550 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2239Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 8" time="83.171802">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri8,Address Line Field 12551 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2240Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 9" time="82.512028">
+<system-out><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..passed
+Then Event Manager clicks the Create New Event button.......................passed
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..passed
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri9,Address Line Field 12552 Grey Lane of Type Details Section first part.passed
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.passed
+Then Event Manager fills out the 230-000-2241Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.passed
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.passed
+Then Event Manager Exits....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

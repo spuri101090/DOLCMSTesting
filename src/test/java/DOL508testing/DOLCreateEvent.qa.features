@@ -1,4 +1,4 @@
-
+@SmokeTest
 Feature: Event Manager Creates Events and only fills out the "Event Details" section.
 
 Scenario Outline: Validate creation of Events through filling of the "Event Details".

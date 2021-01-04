@@ -1,0 +1,202 @@
+-------------------------------------------------------------------------------
+Test set: DOLCreateEvent.qa.Runner.CreateEventRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 90, Failures: 0, Errors: 18, Skipped: 63, Time elapsed: 128.319 sec <<< FAILURE! - in DOLCreateEvent.qa.Runner.CreateEventRunnerTest
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri1 | 12544 Grey Lane | Baltimore | 20844 | 230-000-2233 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |)  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_15.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri1 | 12544 Grey Lane | Baltimore | 20844 | 230-000-2233 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_15.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri2 | 12545 Grey Lane | Rockville | 20844 | 230-000-2234 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_29.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri2 | 12545 Grey Lane | Rockville | 20844 | 230-000-2234 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_29.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri3 | 12546 Grey Lane | Gaithersburg | 20844 | 230-000-2235 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_43.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri3 | 12546 Grey Lane | Gaithersburg | 20844 | 230-000-2235 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_43.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri4 | 12547 Grey Lane | Baltimore | 20844 | 230-000-2236 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_57.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri4 | 12547 Grey Lane | Baltimore | 20844 | 230-000-2236 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_36_57.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri5 | 12548 Grey Lane | Rockville | 20844 | 230-000-2237 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_11.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri5 | 12548 Grey Lane | Rockville | 20844 | 230-000-2237 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_11.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri6 | 12549 Grey Lane | Gaithersburg | 20844 | 230-000-2238 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_25.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri6 | 12549 Grey Lane | Gaithersburg | 20844 | 230-000-2238 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_25.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri7 | 12550 Grey Lane | Baltimore | 20844 | 230-000-2239 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_39.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri7 | 12550 Grey Lane | Baltimore | 20844 | 230-000-2239 | sp@yahoo.com | www.google.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_39.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri8 | 12551 Grey Lane | Rockville | 20844 | 230-000-2240 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_53.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri8 | 12551 Grey Lane | Rockville | 20844 | 230-000-2240 | sp@yahoo.com | www.yahoo.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_37_53.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(| Testing for Sumit Puri1 | Testing for Sumit Puri9 | 12552 Grey Lane | Gaithersburg | 20844 | 230-000-2241 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_38_06.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+
+| Testing for Sumit Puri1 | Testing for Sumit Puri9 | 12552 Grey Lane | Gaithersburg | 20844 | 230-000-2241 | sp@yahoo.com | www.hotmail.com | Testing for Sumit Puri |  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-03-2021 17_38_06.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ?.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/main/java/DOLCreateEvents/qa/features/DOLCreateEvent.qa.features:6)
+

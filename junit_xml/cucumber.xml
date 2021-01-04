@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="9" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="135.077731">
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;." time="20.441823">
+<failure message="java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_10_38.jpg (The system cannot find the path specified)&#13;&#10;&#9;at java.io.FileOutputStream.open0(Native Method)&#13;&#10;&#9;at java.io.FileOutputStream.open(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri1,Address Line Field 12544 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2233Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_10_38.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 2" time="8.09081">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: &#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_opens_browser(CreateEventStepsDuplicate.java:67)&#13;&#10;&#9;at ✽.Given Event Manager opens browser.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:5)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................failed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..skipped
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri2,Address Line Field 12545 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2234Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_opens_browser(CreateEventStepsDuplicate.java:67)
+	at ✽.Given Event Manager opens browser.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:5)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 3" time="17.332166">
+<failure message="java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_11_03.jpg (The system cannot find the path specified)&#13;&#10;&#9;at java.io.FileOutputStream.open0(Native Method)&#13;&#10;&#9;at java.io.FileOutputStream.open(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri3,Address Line Field 12546 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2235Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_11_03.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 4" time="10.958524">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 21660, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ce3e4514-85f8-4373-92b4-ecd24f666a13&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri4,Address Line Field 12547 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2236Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 21660, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ce3e4514-85f8-4373-92b4-ecd24f666a13
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 5" time="10.249033">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 29044, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 85707456-cb7d-45d2-8efe-05199a4d3551&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri5,Address Line Field 12548 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2237Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 29044, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85707456-cb7d-45d2-8efe-05199a4d3551
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 6" time="18.319642">
+<failure message="java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_11_43.jpg (The system cannot find the path specified)&#13;&#10;&#9;at java.io.FileOutputStream.open0(Native Method)&#13;&#10;&#9;at java.io.FileOutputStream.open(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri6,Address Line Field 12549 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2238Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_11_43.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 7" time="11.085067">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1952, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7c42903d-77bd-4433-9bc1-eb3dfad0e3cf&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri7,Address Line Field 12550 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Baltimorecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2239Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.google.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V64E70V', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1952, moz:profile: C:\Users\rajku\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7c42903d-77bd-4433-9bc1-eb3dfad0e3cf
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[4]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:78)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 8" time="21.350705">
+<failure message="java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_12_15.jpg (The system cannot find the path specified)&#13;&#10;&#9;at java.io.FileOutputStream.open0(Native Method)&#13;&#10;&#9;at java.io.FileOutputStream.open(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri8,Address Line Field 12551 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Rockvillecity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2240Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.yahoo.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_12_15.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+<testcase classname="Event Manager Creates Events and only fills out the &quot;Event Details&quot; section." name="Validate creation of Events through filling of the &quot;Event Details&quot;. 9" time="17.249961">
+<failure message="java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_12_33.jpg (The system cannot find the path specified)&#13;&#10;&#9;at java.io.FileOutputStream.open0(Native Method)&#13;&#10;&#9;at java.io.FileOutputStream.open(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)&#13;&#10;&#9;at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)&#13;&#10;&#9;at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)&#13;&#10;&#9;at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)&#13;&#10;"><![CDATA[Given Event Manager opens browser...........................................passed
+Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module..failed
+Then Event Manager clicks the Create New Event button.......................skipped
+Then Event Manager enters in Events Details Info by entering the Testing for Sumit Puri1 field and clicks the Save button..skipped
+Then Event Manager fills out the Location Name Field Testing for Sumit Puri9,Address Line Field 12552 Grey Lane of Type Details Section first part.skipped
+Then Event Manager fills out the Gaithersburgcity field,20844zip field of Type Details Section second part.skipped
+Then Event Manager fills out the 230-000-2241Primary Phone field, sp@yahoo.comEmail Field of the Type Details Section third part.skipped
+Then Event Manager fills out the www.hotmail.comWebsite Field,Testing for Sumit PuriSpecial Instructions field of the Type Details Section fourth part.skipped
+Then Event Manager Exits....................................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\z-Puri-Sumit\Documents\DOLTestCases\TESTPROJECT\src\main\java\DOL\qa\pages\Screenshots for Login\screenshotLogin1Error01-04-2021 09_12_33.jpg (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at DOLCreateEvent.qa.stepdefinitions.CreateEventStepsDuplicate.event_Manager_is_on_initial_page_of_Test_Environment_and_Logs_In_to_the_application_and_Navigates_to_the_Outreach_Module(CreateEventStepsDuplicate.java:110)
+	at ✽.Then Event Manager is on initial page of Test Environment and Logs In to the application and Navigates to the Outreach Module.(D:/2021/DOLCMSTesting-master/src/test/java/DOLCreateEvent/qa/Runner/DOLCreateEvent.qa.features:6)
+]]></failure>
+</testcase>
+</testsuite>
